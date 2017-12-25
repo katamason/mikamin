@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=1024, maximum-scale=1,user-scalable=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>Slide - 1</title>
+	<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/slides/slide_1.css">
+</head>
+
+<body>
+<div id="all-content">
+	<div id="container">
+		<div class="slide">
+			<div data-fire-event="gematology" class="btn btn--1"></div>
+			<div data-fire-event="intence" class="btn btn--2"></div>
+			<div data-fire-event="neonantology" class="btn btn--3"></div>
+			<div class="tap-popup"></div>
+			<div class="slide_1-popup">
+				<div data-fire-event="what 1?" class="btn btn--4"></div>
+				<div data-fire-event="what 2?" class="btn btn--5"></div>
+				<img src="images/popup/slide_1-popup.png" width="1024px" alt="">
+				<div class="slide_1-popup__close"></div>
+			</div>
+            
+			<!--<div class="links"><span></span></div>-->
+
+			<div class="hands">
+				<div class="hand hand--1" data-fire-event="gematology"></div>
+				<div class="hand hand--2" data-fire-event="intence"></div>
+				<div class="hand hand--3" data-fire-event="neonantology"></div>
+				<div class="hand hand--4"></div>
+			</div>
+			<img src="images/shared/logo-astellas.png" width="88" class="logo" alt="">
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery-2.1.1.min.js?v=1463052525903"></script>
+<script src="js/communicate.js?v=1463052525841" type="text/javascript"></script>
+<script src="js/hammer.js?v=1463052525861" type="text/javascript"></script>
+<script src="js/jquery.hammer.js?v=1463052525908" type="text/javascript"></script>
+<script src="js/slideAppLib.js?v=1465463546861" type="text/javascript"></script>
+<script src="js/StoryCLMNavigation.js?v=1463052525812" type="text/javascript"></script>
+<script src="js/astellasFooter.js?v=1465390288854" type="text/javascript"></script>
+<script src="js/main.js?v=1465405758784" type="text/javascript"></script>
+<script>
+	$('.tap-popup').on('touchend', function(){
+		$('.slide_1-popup').addClass('slide_1-popup--visible')
+	})
+	$('.slide_1-popup__close').on('touchend', function(){
+		$('.slide_1-popup').removeClass('slide_1-popup--visible')
+	})
+</script>
+</body>
+</html>

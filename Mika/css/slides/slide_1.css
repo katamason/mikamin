@@ -1,0 +1,100 @@
+.slide {
+    background: url(../../images/slide_1/slide_1.png) no-repeat 0 0 / cover;
+}
+
+.title {
+    font-size: 30px;
+    margin: 379px 0 0 222px;
+    line-height: 1.6;
+}
+
+.btn {
+    position: absolute;
+    width: 300px;
+    height: 90px;
+}
+.btn--1 {
+    top: 110px;
+    left: 220px;
+}
+.btn--2 {
+    top: 253px;
+    left: 220px;
+}
+.btn--3 {
+    top: 395px;
+    left: 220px;
+}
+.btn--4 {
+    top: 255px;
+    left: 220px;
+}
+.btn--5 {
+    top: 415px;
+    left: 220px;
+}
+
+/*.btn-txt{
+    background: #FFF;
+    width: 300px;
+    height: 90px;
+    margin: 3px auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 90px;
+}*/
+
+.btn-txt:focus,.btn-txt:active{
+    background: none;
+}
+
+.hand--1{
+    top: 155px;
+    left: 350px;
+}
+.hand--2{
+    top: 298px;
+    left: 350px;
+}
+.hand--3{
+    top: 440px;
+    left: 350px;
+}
+.hand--4{
+    top: 645px;
+    left: 350px;
+}
+.slide_1-popup {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 50px;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+}
+
+.slide_1-popup--visible {
+    opacity: 1;
+    z-index: 2;
+    pointer-events: visible;
+}
+
+.tap-popup {
+	position: absolute;
+    top: 600px;
+    left: 220px;
+    width: 300px;
+    height: 90px;
+    z-index: 1;
+}
+.slide_1-popup__close {
+	position: absolute;
+    top: 120px;
+    left: 590px;
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+}

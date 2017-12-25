@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('GothaProMed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('GothaProBol.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('GothaProBla.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('GothaProLig.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}

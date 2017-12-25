@@ -1,0 +1,257 @@
+{
+  "settings": {
+    "slideFlip": {
+      "animationSpeed": 0,
+      "gestures": [
+        "doubleswipe"
+      ]
+    }
+  },
+  "slides": [
+    {
+      "alias": "slide_1",
+      "name": "slide_1",
+      "source": "slide_1.html",
+      "preview": "previews/slide_1.png",
+      "events": [
+        {
+          "name": "Гематология",
+          "alias": "gematology"
+        },
+        {
+          "name": "Отделения интенсивной терапии",
+          "alias": "intence"
+        },
+        {
+          "name": "Неонантология",
+          "alias": "neonantology"
+        },
+        {
+          "name": "Возражение 1",
+          "alias": "what 1?"
+        },
+        {
+          "name": "Возражение 2",
+          "alias": "what 2?"
+        }
+      ]
+    },
+    {
+      "alias": "slide_2",
+      "name": "slide_2",
+      "source": "slide_2.html",
+      "preview": "previews/slide_2.png"
+    },
+	{
+      "alias": "slide_3",
+      "name": "slide_3",
+      "source": "slide_3.html",
+      "preview": "previews/slide_3.png"
+    },
+	{
+      "alias": "slide_4",
+      "name": "slide_4",
+      "source": "slide_4.html",
+      "preview": "previews/slide_4.png"
+    },
+	{
+      "alias": "slide_5",
+      "name": "slide_5",
+      "source": "slide_5.html",
+      "preview": "previews/slide_5.png"
+    },
+	{
+      "alias": "slide_6",
+      "name": "slide_6",
+      "source": "slide_6.html",
+      "preview": "previews/slide_6.png"
+    },
+	{
+      "alias": "slide_7",
+      "name": "slide_7",
+      "source": "slide_7.html",
+      "preview": "previews/slide_7.png"
+    },
+	{
+      "alias": "slide_8",
+      "name": "slide_8",
+      "source": "slide_8.html",
+      "preview": "previews/slide_8.png"
+    },
+	{
+      "alias": "slide_9",
+      "name": "slide_9",
+      "source": "slide_9.html",
+      "preview": "previews/slide_9.png"
+    },
+	{
+      "alias": "slide_10",
+      "name": "slide_10",
+      "source": "slide_10.html",
+      "preview": "previews/slide_10.png"
+    },
+	{
+      "alias": "slide_11",
+      "name": "slide_11",
+      "source": "slide_11.html",
+      "preview": "previews/slide_11.png"
+    },
+	{
+      "alias": "slide_12",
+      "name": "slide_12",
+      "source": "slide_12.html",
+      "preview": "previews/slide_12.png"
+    },
+	{
+      "alias": "slide_13",
+      "name": "slide_13",
+      "source": "slide_13.html",
+      "preview": "previews/slide_13.png"
+    },
+	{
+      "alias": "slide_14",
+      "name": "slide_14",
+      "source": "slide_14.html",
+      "preview": "previews/slide_14.png"
+    },
+	{
+      "alias": "slide_15",
+      "name": "slide_15",
+      "source": "slide_15.html",
+      "preview": "previews/slide_15.png"
+    },
+	{
+      "alias": "slide_16",
+      "name": "slide_16",
+      "source": "slide_16.html",
+      "preview": "previews/slide_16.png"
+    },
+	{
+      "alias": "slide_17",
+      "name": "slide_17",
+      "source": "slide_17.html",
+      "preview": "previews/slide_17.png"
+    },
+	{
+      "alias": "slide_18",
+      "name": "slide_18",
+      "source": "slide_18.html",
+      "preview": "previews/slide_18.png"
+    },
+    {
+      "alias": "slide_19",
+      "name": "slide_19",
+      "source": "slide_19.html",
+      "preview": "previews/slide_19.png"
+    }
+  ],
+  "attachments": [
+    {
+      "alias": "link",
+      "name": "Инструкции",
+      "path": "mibrowsersf://russiaportal.europe.astellas.net/departments/Medical/Shared%20Documents/Regulatory%20Affairs/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D0%B8%20%D0%B8%20%D0%BB%D0%B8%D1%81%D1%82%D0%BA%D0%B8-%D0%B2%D0%BA%D0%BB%D0%B0%D0%B4%D1%8B%D1%88%D0%B8/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F/%D0%90%D0%9A%D0%A2%D0%A3%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%95%20%D0%98%D0%9D%D0%A1%D0%A2%D0%A0%D0%A3%D0%9A%D0%A6%D0%98%D0%98%20-%20%D0%A0%D0%9E%D0%A1%D0%A1%D0%98%D0%AF/",
+      "tags": "tag1"
+    }
+  ],
+  "branches": [
+    {
+      "name": "Основной раздел",
+      "alias": "osnovnoy-razdel",
+      "slides": ["slide_1"],
+      "attachmentTags": {
+        "$all": "tag1"
+      }
+    },
+    {
+      "name": "Гематология",
+      "alias": "gematology",
+      "slides": ["slide_2","slide_3","slide_4","slide_5","slide_6","slide_19"],
+      "attachmentTags": {
+        "$all": "tag1"
+      }
+    },
+    {
+      "name": "Отделения интенсивной терапии",
+      "alias": "intence",
+      "slides": ["slide_7","slide_8","slide_9","slide_19"],
+      "attachmentTags": {
+        "$all": "tag1"
+      }
+    },
+    {
+      "name": "Неонантология",
+      "alias": "neonantology",
+      "slides": ["slide_10","slide_11","slide_12","slide_13","slide_19"],
+      "attachmentTags": {
+        "$all": "tag1"
+      }
+    },
+    {
+      "name": "Возражение 1",
+      "alias": "what 1?",
+      "slides": ["slide_14","slide_15","slide_16","slide_19"],
+      "attachmentTags": {
+        "$all": "tag1"
+      }
+    },
+    {
+      "name": "Возражение 2",
+      "alias": "what 2?",
+      "slides": ["slide_17","slide_18","slide_19"],
+      "attachmentTags": {
+        "$all": "tag1"
+      }
+    }
+  ],
+  "events": {
+    "$all": [
+      {
+        "alias": "homeSlide",
+        "name": "Домой"
+      }
+    ]},
+  "handlers": {
+    "$all homeSlide": {
+      "action": "navigate",
+      "destination": "slide_1@osnovnoy-razdel",
+      "appearFrom": "left"
+    },
+    "slide_1@osnovnoy-razdel $next":{
+      "action": "none"
+    },
+    "slide_1@osnovnoy-razdel $prev":{
+      "action": "none"
+    },
+
+    "slide_1@osnovnoy-razdel gematology":{
+      "action": "navigate",
+      "destination": "slide_2@gematology",
+      "appearFrom": "left",
+      "sub": true
+    },
+    "slide_1@osnovnoy-razdel intence":{
+      "action": "navigate",
+      "destination": "slide_7@intence",
+      "appearFrom": "left",
+      "sub": true
+    },
+    "slide_1@osnovnoy-razdel neonantology":{
+      "action": "navigate",
+      "destination": "slide_10@neonantology",
+      "appearFrom": "left",
+      "sub": true
+    },
+    "slide_1@osnovnoy-razdel what 1?":{
+      "action": "navigate",
+      "destination": "slide_14@what 1?",
+      "appearFrom": "left",
+      "sub": true
+	},
+    "slide_1@osnovnoy-razdel what 2?":{
+      "action": "navigate",
+      "destination": "slide_17@what 2?",
+      "appearFrom": "left",
+      "sub": true
+    }
+  }
+}

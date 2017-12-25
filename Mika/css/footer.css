@@ -1,0 +1,242 @@
+.footer__tap {
+    height: 100%;
+    max-height: 72px;
+    z-index: 11;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer__wrap {
+    z-index: 100000;
+    position: absolute;
+    bottom: -200px;
+    position: absolute;
+    height: 72px;
+    width: 100%;
+    opacity: 0;
+    transition: -webkit-transform 0.3s;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.footer__wrap_show {
+    -webkit-transform: translate3d(0, -200px, 0);
+    transform: translate3d(0, -200px, 0);
+}
+
+.footer__left {
+    position: absolute;
+    left: 257px;
+    top: 10px;
+    z-index: 9999;
+}
+
+.footer__right {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    z-index: 9999;
+}
+
+.footer__list {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    list-style-type: none;
+}
+
+.footer__item {
+    height: 68px;
+    margin-top: -11px;
+    display: inline-block;
+    opacity: 0.35;
+}
+
+.footer__item_active {
+    opacity: 1;
+}
+
+.footer__link {
+    display: block;
+    width: 88px;
+    height: 52px;
+    border-left: 2px solid #dcdcdc;
+    margin-top: 10px;
+}
+
+.footer__link_home {
+    background: url(../images/shared/icon-home.png?v=22712233669) no-repeat center;
+    background-size: auto 50%;
+}
+
+.footer__link_back {
+    background: url(../images/shared/icon-back.png?v=22712233669) no-repeat center;
+    background-size: auto 50%;
+}
+
+.footer__link_scenario {
+    background: url(../images/shared/icon-scen.png?v=22712233669) no-repeat 30px 13px;
+    background-size: auto 50%;
+}
+
+.footer__link_path {
+    background: url(../images/shared/icon-path.png?v=22712233669) no-repeat center;
+    background-size: auto 50%;
+}
+
+.footer__link_lib {
+    background: url(../images/shared/icon-ref.png?v=22712233669) no-repeat center;
+    background-size: auto 70%;
+}
+
+.footer__link_logo {
+    background: url(../images/shared/logo-astellas.png?v=22712233669) no-repeat center;
+    background-size: auto 70%;
+    width: 128px;
+}
+
+.footer__dropdown {
+    position: absolute;
+    bottom: 100px;
+    left: 235px;
+    z-index: 9999;
+}
+
+.dropdown {
+    display: none;
+    background: #fff;
+    border: 2px solid #dcdcdc;
+    border-radius: 5px;
+    bottom: 0;
+    max-width: 200px;
+    padding-right: 20px;
+}
+
+.dropdown:after,
+.dropdown:before {
+    top: 100%;
+    margin-left: 58px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.dropdown:after {
+    border-color: rgba(136,183,213,0);
+    border-top-color: #fff;
+    border-width: 15px;
+}
+
+.dropdown:before {
+    border-color: rgba(194,225,245,0);
+    border-top-color: #dcdcdc;
+    border-width: 16px;
+    margin-left: 57px;
+}
+
+.dropdown__item {
+    padding: 8px 0;
+    word-wrap: break-word;
+}
+
+.dropdown_lib {
+    margin-left: 540px;
+}
+
+.dropdown_nav {
+    max-width: 400px;
+}
+
+.dropdown__list {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.dropdown__link {
+    line-height: 1.2;
+    text-align: left;
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: sans-serif;
+    max-width: 100%;
+}
+
+.footer__dropdown._fullsize {
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    right: 25px;
+    bottom: 95px;
+    display: none;
+}
+
+.footer__dropdown._fullsize .dropdown {
+    display: none;
+    position: absolute;
+    border: 2px solid #dcdcdc;
+    border-radius: 5px;
+    bottom: 20px;
+    max-width: 200px;
+    padding-right: 20px;
+    left: 235px;
+}
+
+.footer__dropdown._fullsize .dropdown_lib {
+    position: absolute;
+    border: 2px solid #dcdcdc;
+    border-radius: 5px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 20px;
+    right: 0;
+    max-width: 100%;
+    margin-left: 0;
+    box-sizing: border-box;
+}
+
+.footer__dropdown._fullsize .dropdown_lib:before,
+.footer__dropdown._fullsize .dropdown_lib:after {
+    right: 150px;
+}
+
+.footer__dropdown._fullsize .dropdown_lib .dropdown__item {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer__overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9989;
+}
+
+.footer__dropdown._fullsize .dropdown_lib .dropdown__link {
+    font-size: 21px;
+}
+
+.footer__dropdown._fullsize .dropdown_lib {
+    overflow: hidden;
+}
+#bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 1024px;
+    height: 72px;
+    background-color: white;
+    background-image: -webkit-linear-gradient(right, #fafafa 0%,rgb(219, 219, 219) 100%);
+}
+
